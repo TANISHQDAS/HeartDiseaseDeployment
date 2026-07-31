@@ -1,0 +1,5 @@
+# Extra dependency needed only to run train_model.py locally.
+# Not required by the deployed API, so it is kept out of requirements.txt
+# to keep the Vercel/Render deployment bundle small.
+-r requirements.txt
+kagglehub==0.3.4
